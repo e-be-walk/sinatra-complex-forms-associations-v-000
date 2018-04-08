@@ -9,8 +9,6 @@
 
   <br></br>
 
-  <input type="submit" value="Create Owner">
-
   <label>Choose an existing pet: </label>
   <br></br>
   
@@ -18,4 +16,5 @@
     <input type="checkbox" name="owner[pet_ids][]" value="<%=pet.id%>" id="<%=pet.id%>"><%=pet.name%></input>
   <% end %>
   <br></br>
+  <input type="submit" value="Create Owner">
 </form>
